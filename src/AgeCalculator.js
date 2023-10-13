@@ -13,8 +13,8 @@ const AgeCalculator = () => {
         setAge(ageInYears);
     };
 
-    const redirectToGoogle = () => {
-        window.location.href = 'https://www.google.com';
+    const redirectToIndexPage = () => {
+        window.location.href = 'https://swarabraul.github.io/React-Ethnus-IndexPage/';
     };
 
     return (
@@ -29,8 +29,8 @@ const AgeCalculator = () => {
                 Calculate Age
             </button>
             {age && <p>Your age is {age} years.</p>}
-            <button className="google-button" onClick={redirectToGoogle}>
-                Back to Google
+            <button className="IndexPage-button" onClick={redirectToIndexPage}>
+                Back to Index Page
             </button>
         </div>
     );

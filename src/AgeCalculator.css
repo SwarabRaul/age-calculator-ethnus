@@ -23,7 +23,7 @@ input {
 }
 
 .calculate-button,
-.google-button {
+.IndexPage-button {
     display: block;
     width: 100%;
     padding: 10px;
@@ -43,10 +43,10 @@ input {
     background-color: #0056b3;
 }
 
-.google-button {
+.IndexPage-button {
     background-color: #d32f2f;
 }
 
-.google-button:hover {
+.IndexPage-button:hover {
     background-color: #9a0000;
 }
